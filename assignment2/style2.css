@@ -1,0 +1,35 @@
+body{
+	background-color: ghostwhite;
+}
+
+button{
+	background: lightsteelblue;
+	font-family: Georgia;
+	font-size: 18px;
+}
+
+input{
+	background: lightgoldenrodyellow;
+	font-family: Georgia;
+	font-size: 18px;
+}
+label{
+	font-family: Georgia;
+}
+div{
+	font-size: 20px;
+	padding-top: 10px;
+	padding-bottom: 10px;
+}
+.heading{
+	text-align: center;
+	background: lightsteelblue;
+}
+.hello{
+	font-size: 30px;
+	background: lightgoldenrodyellow;
+	border-top: dotted;
+	border-bottom: dotted;
+	border-color: lightsteelblue;
+	text-align: center;
+}

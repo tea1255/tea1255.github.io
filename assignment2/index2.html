@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset='UTF-8'>
+	<title>Assignment 2</title>
+	<link rel='stylesheet' type='text/css' href='style2.css'>
+</head>
+<body>
+	<!--problem 1-->
+	<header class='hello'>Assignment 2</header>
+	<div>
+		<p class='heading'>Reverse the String</p>
+		<label for='userString'>Please enter a string:</label>
+		<input type='text' name='userString' id=uString>
+		<button type='button' onclick='reversedString()'>Submit</button>
+		<p>Output: <span id='output1'></span></p>
+	</div>
+<!--problem 2-->
+	<div>
+		<p class='heading'>Is it a Palindrome?</p>
+		<label for='userInput'>Please enter a number:</label>
+		<input type='number' name='userInput' id='inputs'>
+		<button type='button' onclick='isPalindrome()'>Submit</button>
+		<p>Output: <span id='output'></span></p>
+	</div>
+<!--problem 3-->
+	<div>
+		<p class='heading'>Bill Calculator</p>
+		<label for='subtotal'>Please enter the subtotal:</label>
+		<input type='number' name='userInput2' id='subtotal'>
+		<label for='tip'>Please enter the tip percentage:</label>
+		<input type='number' name='userInput2' id='tip'>
+		<button type='button' onclick='totalBill()'>Submit</button>
+		<p>Your total bill including tip is <span id='output2'></span></p>
+	</div>
+</body>
+	<script src='index.js'></script>
+</html>
